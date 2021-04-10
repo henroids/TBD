@@ -266,6 +266,10 @@ p {
 }
 
 .pizza-boxes {
+  display: block;
   background: url("../img/pizzabox_transparent.png") no-repeat center center/contain;
+  cursor: pointer;
   height: 50px;
+  width: 200px;
+  text-align: center;
 }
