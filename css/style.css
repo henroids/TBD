@@ -264,3 +264,8 @@ p {
   color: #fff;
   padding: 20px;
 }
+
+.pizza-boxes {
+  background: url("../img/pizzabox_transparent.png") no-repeat;
+  height: 200px;
+}
