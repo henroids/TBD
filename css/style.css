@@ -273,3 +273,18 @@ p {
   width: 200px;
   text-align: center;
 }
+
+input {
+  opacity: .5;
+}
+
+textarea {
+  opacity: .5;
+}
+
+.logo {
+  background: url("../img/pizzamania\ LOGO.png") no-repeat center center/contain;
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+}
