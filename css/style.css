@@ -273,3 +273,7 @@ p {
   width: 200px;
   text-align: center;
 }
+
+.form-group:placeholder-shown {
+  opacity: ;
+}
