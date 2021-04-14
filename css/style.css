@@ -12,6 +12,7 @@ html {
   /* background: url("../img/toppings.png")center center/contain; */
 }
 
+
 a {
   color: #333;
   text-decoration: none;
@@ -27,7 +28,7 @@ p {
 
 /* navbar */
 #navbar {
-  background: #A59DC6;
+  background: #7C7597;
   color: white;
   overflow: auto;
 }
@@ -36,8 +37,9 @@ p {
   color: white;
 }
 
-li {
+.home {
   text-align: center;
+  color: #7C7597;
   height: 15rem;
   width: 40rem;
   /* margin-top: -120px; */
@@ -56,15 +58,14 @@ li {
   position: relative;
   z-index: 4;
   background: url("../img/blue_box.svg") no-repeat center center/contain;
-  margin-bottom: -130px;
+  margin-bottom: -155px;
   margin-left: 20px;
-  te
 }
 .pink_box {
   position: relative;
   z-index: 3;
   background: url("../img/pink_box.svg") no-repeat center center/contain;
-  margin-bottom: -150px;
+  margin-bottom: -175px;
   margin-left: 80px;
   transform: rotate(-5deg);
 }
@@ -72,7 +73,7 @@ li {
   position: relative;
   z-index: 2;
   background: url("../img/green_box.svg") no-repeat center center/contain;
-  margin-bottom: -170px;
+  margin-bottom: -195px;
   transform: rotate(5deg);
 }
 .purple_box {
@@ -82,8 +83,48 @@ li {
   margin-left: 60px;
 }
 
+.menu ul li {
+  height: 20em;
+}
 ul {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+li {
+  margin: 25px;
+}
+
+/* pizza cards  */
+.pep {
+  background: url("../img/pep_card.svg") no-repeat center center/contain;
+}
+.supreme {
+  background: url("../img/supreme_\ card.svg") no-repeat center center/contain;
+  
+}
+.pine {
+  background: url("../img/pine_card.svg") no-repeat center center/contain;
+}
+
+/* sides cards  */
+.chicken {
+  background: url("../img/chicken_\ card.svg") no-repeat center center/contain;
+}
+
+.chick_salad {
+  background: url("../img/chicken_salad.svg") no-repeat center center/contain;
+}
+
+.ceaser_salad {
+  background: url("../img/ceaser_salad.svg") no-repeat center center/contain;
+}
+
+.drinks {
+  background: url("../img/drink_card.svg") no-repeat center center/contain;
+}
+
+.beverages ul li {
+  margin: 0px;
 }
