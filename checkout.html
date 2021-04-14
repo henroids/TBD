@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" href="https://fonts.googleapis.com/css2?family=Lobster&display=swap">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
+    <title>Pizza Mania</title>
+</head>
+
+<body>
+    <div class="nav">
+        <div class="container">
+            <h1 class="logo"><a href="index.html">Pizza Mania</a></h1>
+            <!-- hero section -->
+            <div id="hero">
+
+            </div>
+            <!-- pizza box menu -->
+            <div class="pizza-boxes">
+                <a href="./menu.html">Menu</a>
+            </div>
+            <div class="pizza-boxes">
+                <a href="./order.html">Order</a>
+            </div>
+            <div class="pizza-boxes">
+                <a href="./contact.html">Contact</a>
+            </div>
+            <div class="pizza-boxes">
+                <a href="./rewards.html">Rewards</a>
+            </div>
+            <div class="pizza-boxes">
+                <a href="./gps.html">Take Me There</a>
+            </div>
+        </div>
+    </div>
+
+    <h2>Order Summary</h2>
+    <p>Enter your delivery information and confirm your order below. </p>
+    <div class="row">
+        <div class="col-75">
+            <div class="container">
+                <form action="/action_page.php">
+
+                    <div class="row">
+                        <div class="col-50">
+                            <h3>Delivery Adress</h3>
+                            <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+                            <input type="text" id="fname" name="firstname" placeholder="It's me, Mario">
+                            <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                            <input type="text" id="email" name="email" placeholder="mamamiapizzaria@example.com">
+                            <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+                            <input type="text" id="adr" name="address" placeholder="123 Spicy Pie St.">
+                            <label for="city"><i class="fa fa-institution"></i> City</label>
+                            <input type="text" id="city" name="city" placeholder="New York">
+
+                            <div class="row">
+                                <div class="col-50">
+                                    <label for="state">State</label>
+                                    <input type="text" id="state" name="state" placeholder="NY">
+                                </div>
+                                <div class="col-50">
+                                    <label for="zip">Zip</label>
+                                    <input type="text" id="zip" name="zip" placeholder="10001">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-50">
+                            <h3>Payment</h3>
+                            <label for="fname">Accepted Cards</label>
+                            <div class="icon-container">
+                                <i class="fa fa-cc-visa" style="color:navy;"></i>
+                                <i class="fa fa-cc-amex" style="color:blue;"></i>
+                                <i class="fa fa-cc-mastercard" style="color:red;"></i>
+                                <i class="fa fa-cc-discover" style="color:orange;"></i>
+                            </div>
+                            <label for="cname">Name on Card</label>
+                            <input type="text" id="cname" name="cardname" placeholder="Mario Luigi">
+                            <label for="ccnum">Credit card number</label>
+                            <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+                            <label for="expmonth">Exp Month</label>
+                            <input type="text" id="expmonth" name="expmonth" placeholder="September">
+                            <div class="row">
+                                <div class="col-50">
+                                    <label for="expyear">Exp Year</label>
+                                    <input type="text" id="expyear" name="expyear" placeholder="2030">
+                                </div>
+                                <div class="col-50">
+                                    <label for="cvv">CVV</label>
+                                    <input type="text" id="cvv" name="cvv" placeholder="123">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <label>
+                        <input type="checkbox" checked="checked" name="sameadr"> Billing address same as delivery
+                    </label>
+                    <input type="submit" value="It's pizza time, baby!" class="btn">
+                </form>
+            </div>
+        </div>
+        <div class="col-25">
+            <div class="container">
+                <h4>Confirm Order <span class="price" style="color:black"><i class="fa fa-shopping-cart"></i>
+                        <b>3</b></span></h4>
+                <p><a href="#">Large Pepperoni Piza</a> <span class="price">$15</span></p>
+                <p><a href="#">Wings</a> <span class="price">$10</span></p>
+                <p><a href="#">1L Coke</a> <span class="price">$4</span></p>
+                <hr>
+                <p>Total <span class="price" style="color:black"><b>$29</b></span></p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
+
+
+
+<footer>
+    <ul>
+        <li>Contact Us</li>
+        <li>Location</li>
+        <li>Follow Us</li>
+    </ul>
+</footer>
+</body>
+
+</html>
