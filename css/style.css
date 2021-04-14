@@ -11,6 +11,8 @@
 html, body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.7em;
+  background-color: #A59DC6;
+  background: url("../img/toppings.png") center center/contain #A59DC6;
 }
 
 a {
