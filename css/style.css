@@ -40,7 +40,6 @@ li {
   text-align: center;
   height: 15rem;
   width: 40rem;
-  cursor: pointer;
   /* margin-top: -120px; */
   /* background: url("../img/blue_box.png") no-repeat center center/contain; */
 }
@@ -59,6 +58,7 @@ li {
   background: url("../img/blue_box.svg") no-repeat center center/contain;
   margin-bottom: -130px;
   margin-left: 20px;
+  te
 }
 .pink_box {
   position: relative;
@@ -73,7 +73,7 @@ li {
   z-index: 2;
   background: url("../img/green_box.svg") no-repeat center center/contain;
   margin-bottom: -170px;
-  transform: rotate();
+  transform: rotate(5deg);
 }
 .purple_box {
   position: relative;
