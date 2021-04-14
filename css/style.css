@@ -1,18 +1,15 @@
-/* Reset */
-
+/* reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Main Styling */
-
-html, body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 1.7em;
-  background-color: #A59DC6;
-  background: url("../img/toppings.png") center center/contain #A59DC6;
+/* main styling */
+html {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  line-height: 1.7rem;
+  /* background: url("../img/toppings.png")center center/contain; */
 }
 
 a {
@@ -20,7 +17,7 @@ a {
   text-decoration: none;
 }
 
-h1, h2, h3 {
+h1,h2,h3 {
   padding-bottom: 20px;
 }
 
@@ -28,437 +25,65 @@ p {
   margin: 10px 0;
 }
 
-/* Utility Classes */
-
-.container {
-  margin: auto;
-  max-width: 1100px;
-  overflow: auto;
-  padding: 0 20px;
-}
-
-.text-primary {
-  color: #f7c08a;
-}
-
-.lead {
-  font-size: 20px;
-}
-
-.btn {
-  display: inline-block;
-  font-size: 18px;
-  color: #fff;
-  background: #333;
-  padding: 13px 20px;
-  border: none;
-  cursor: pointer;
-}
-
-.btn:hover {
-  background: #f7c08a;
-  color: #333;
-}
-
-.btn-light {
-  background: #f4f4f4;
-  color: #333;
-}
-
-.bg-dark {
-  background: #333;
-  color: #fff;
-}
-
-.bg-light {
-  background: #f4f4f4;
-  color: #333;
-}
-
-.bg-primary {
-  background: #f7c08a;
-  color: #333;
-}
-
-.clr {
-  clear: both;
-}
-
-.l-heading {
-  font-size: 40px;
-}
-
-/* Padding */
-
-.py-1 {
-  padding: 10px 0;
-}
-
-.py-2 {
-  padding: 20px 0;
-}
-
-.py-3 {
-  padding: 30px 0;
-}
-
-/* Navbar */
-
+/* navbar */
 #navbar {
-  background: #333;
-  color: #fff;
+  background: #A59DC6;
+  color: white;
   overflow: auto;
 }
 
 #navbar a {
-  color: #fff;
-}
-
-#navbar h1 {
-  float: left;
-  padding-top: 20px;
-}
-
-#navbar ul {
-  list-style: none;
-  float: right;
-}
-
-#navbar ul li {
-  float: left;
-}
-
-#navbar ul li a {
-  display: block;
-  padding: 20px;
-  text-align: center;
-}
-
-#navbar ul li a:hover, #navbar ul li a.current {
-  background: #444;
-  color: #f7c08a;
-}
-
-/* Showcase */
-
-#showcase {
-  background: url('../img/showcase.jpg') no-repeat center center/cover;
-  height: 600px;
-}
-
-#showcase .showcase-content {
-  color: #fff;
-  text-align: center;
-  padding-top: 170px;
-}
-
-#showcase .showcase-content h1 {
-  font-size: 60px;
-  line-height: 1.2em;
-}
-
-#showcase .showcase-content p {
-  padding-bottom: 20px;
-  line-height: 1.7em;
-}
-
-/* Home Info */
-
-#home-info {
-  height: 450px;
-}
-
-#home-info .info-img {
-  float: left;
-  width: 50%;
-  background: url('../img/photo-1.jpg') no-repeat;
-  min-height: 100%;
-}
-
-#home-info .info-content {
-  float: right;
-  width: 50%;
-  height: 100%;
-  text-align: center;
-  padding: 50px 30px;
-  overflow: hidden;
-}
-
-#home-info .info-content p {
-  padding-bottom: 30px;
-}
-
-/* Features */
-
-.box {
-  float: left;
-  width: 33.3%;
-  padding: 50px;
-  text-align: center;
-}
-
-.box i {
-  margin-bottom: 10px;
-}
-
-/* About Info */
-
-#about-info .info-right {
-  float: right;
-  width: 50%;
-  min-height: 100%;
-}
-
-#about-info .info-right img {
-  display: block;
-  margin: auto;
-  width: 70%;
-}
-
-#about-info .info-left {
-  float: left;
-  width: 50%;
-  min-height: 100%;
-}
-
-/* Testimonials */
-
-#testimonials {
-  height: 600px;
-  background: url('../img/test-bg.jpg') no-repeat center center/cover;
-  padding-top: 100px;
-}
-
-#testimonials h2 {
-  color: #fff;
-  text-align: center;
-  padding-bottom: 40px;
-}
-
-#testimonials .testimonial {
-  padding: 20px;
-  margin-bottom: 40px;
-  border-radius: 5px;
-  opacity: 0.9;
-}
-
-#testimonials .testimonial img {
-  width: 100px;
-  float: left;
-  margin-right: 20px;
-  border-radius: 50%;
-}
-
-/* Contact Form */
-
-#contact-form .form-group {
-  margin-bottom: 20px;
-}
-
-#contact-form label {
-  display: block;
-  margin-bottom: 5px;
-}
-
-#contact-form input, #contact-form textarea {
-  width: 100%;
-  padding: 10px;
-  border: 1px #ddd solid;
-}
-
-#contact-form textarea {
-  height: 200px;
-}
-
-#contact-form input:focus, #contact-form textarea:focus {
-  outline: none;
-  border-color: #f7c08a;
-}
-
-/* Footer */
-
-#main-footer {
-  text-align: center;
-  background: #444;
-  color: #fff;
-  padding: 20px;
-}
-
-.pizza-boxes {
-  display: block;
-  cursor: pointer;
-  height: 50px;
-  width: 200px;
-  margin-top: -20px;
-  text-align: center;
-}
-
-.pizza-boxes purple {
-  background: url("../img/purple_box.png") no-repeat center center/contain;
-}
-
-.pizza-boxes blue {
-  background: url("../img/blue_box.png") no-repeat center center/contain;
-}
-
-.pizza-boxes green {
-  background: url("../img/green_box.png") no-repeat center center/contain;
-}
-
-.pizza-boxes pink {
-  background: url("../img/pink_box.png") no-repeat center center/contain;
-}
-
-input {
-  opacity: .5;
-}
-
-textarea {
-  opacity: .5;
-}
-
-.logo {
-  background: url("../img/pizzamania\ LOGO.png") no-repeat center center/contain;
-  height: 100px;
-  width: 100px;
-  cursor: pointer;
-}
-
-/*delivery form*/
-
-* {
-  box-sizing: border-box;
-}
-
-.row {
-  display: -ms-flexbox;
-  /* IE10 */
-  display: flex;
-  -ms-flex-wrap: wrap;
-  /* IE10 */
-  flex-wrap: wrap;
-  margin: 0 -16px;
-}
-
-.col-25 {
-  -ms-flex: 25%;
-  /* IE10 */
-  flex: 25%;
-}
-
-.col-50 {
-  -ms-flex: 50%;
-  /* IE10 */
-  flex: 50%;
-}
-
-.col-75 {
-  -ms-flex: 75%;
-  /* IE10 */
-  flex: 75%;
-}
-
-.col-25, .col-50, .col-75 {
-  padding: 0 16px;
-}
-
-.container {
-  background-color: #dbd4d4;
-  padding: 5px 20px 15px 20px;
-  border: 1px solid lightgrey;
-  border-radius: 3px;
-}
-
-input[type=text] {
-  width: 100%;
-  margin-bottom: 20px;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 3px;
-}
-
-label {
-  margin-bottom: 10px;
-  display: block;
-}
-
-.icon-container {
-  margin-bottom: 20px;
-  padding: 7px 0;
-  font-size: 24px;
-}
-
-hr {
-  border: 1px solid lightgrey;
-}
-
-span.price {
-  float: right;
-  color: grey;
-}
-
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
-
-@media (max-width: 800px) {
-  .row {
-    flex-direction: column-reverse;
-  }
-  .col-25 {
-    margin-bottom: 20px;
-  }
-}
-
-/*Menu Section*/
-
-.titleSection {
-  background-color: red;
   color: white;
-  font-size: 2em;
-  padding: 10px;
-  text-align: center;
 }
 
-.h3 {
+li {
   text-align: center;
-  font-weight: bold;
+  height: 15rem;
+  width: 40rem;
+  cursor: pointer;
+  /* margin-top: -120px; */
+  /* background: url("../img/blue_box.png") no-repeat center center/contain; */
 }
 
-.menuContainer {
-  display: flex;
+.banner {
+  background: url("../img/banner.svg") center center/contain;
+  height: 15vh;
+  text-align: center;
+  margin-bottom: 150px;
+}
+
+/* pizza boxes */
+.blue_box {
   position: relative;
-  border-radius: 20px;
-  background:white;
+  z-index: 4;
+  background: url("../img/blue_box.svg") no-repeat center center/contain;
+  margin-bottom: -130px;
+  margin-left: 20px;
+}
+.pink_box {
+  position: relative;
+  z-index: 3;
+  background: url("../img/pink_box.svg") no-repeat center center/contain;
+  margin-bottom: -150px;
+  margin-left: 80px;
+  transform: rotate(-5deg);
+}
+.green_box {
+  position: relative;
+  z-index: 2;
+  background: url("../img/green_box.svg") no-repeat center center/contain;
+  margin-bottom: -170px;
+  transform: rotate();
+}
+.purple_box {
+  position: relative;
+  z-index: 1;
+  background: url("../img/purple_box.svg") no-repeat center center/contain;
+  margin-left: 60px;
 }
 
-.imgContainer {
-  flex: 1;
-  background: no-repeat center center/contain;
-  border: 2px solid black;
-  border-radius: 20px;
-  margin: 20px;
-  padding: 10px;
-}
-
-.textContainer {
-  flex: 3;
-  margin-right: 50px;
-  padding: 10px;
-  background: white;
-}
-
-.addBtn {
-  display: flex;
-  border: 2px solid black;
-  border-radius: 15px;
-  height: 40px;
-  width: 150px;
-  font-size: 10pt;
-  color: #444;
-  background-color: orange;
-  position: absolute;
-  top: 170px;
-  right: 100px;
-  justify-content: center;
-  align-items: center;
-  flex-shrink: 0;
+ul {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
