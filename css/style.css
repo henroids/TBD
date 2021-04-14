@@ -286,11 +286,27 @@ p {
 
 .pizza-boxes {
   display: block;
-  background: url("../img/pizzabox_transparent.png") no-repeat center center/contain;
   cursor: pointer;
   height: 50px;
   width: 200px;
+  margin-top: -20px;
   text-align: center;
+}
+
+.pizza-boxes purple {
+  background: url("../img/purple_box.png") no-repeat center center/contain;
+}
+
+.pizza-boxes blue {
+  background: url("../img/blue_box.png") no-repeat center center/contain;
+}
+
+.pizza-boxes green {
+  background: url("../img/green_box.png") no-repeat center center/contain;
+}
+
+.pizza-boxes pink {
+  background: url("../img/pink_box.png") no-repeat center center/contain;
 }
 
 input {
@@ -425,7 +441,7 @@ span.price {
 
 .textContainer {
   flex: 3;
-   margin-right: 50px;
+  margin-right: 50px;
   padding: 10px;
   background: white;
 }
