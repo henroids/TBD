@@ -12,9 +12,16 @@ html {
   /* background: url("../img/toppings.png")center center/contain; */
 }
 
+@font-face {
+  font-family: "Retrofunk, sans-serif";
+  src: url(../css/retrofunkscriptpersonaluse-v6xo-webfont.woff);
+  font-weight: bold;
+}
+
 h1 {
-  font-family: 'Retrofunk Script Personal Use', sans-serif;
-}                                
+  font-family: "Retrofunk, sans-serif";
+}
+
 a {
   color: #333;
   text-decoration: none;
