@@ -12,7 +12,9 @@ html {
   /* background: url("../img/toppings.png")center center/contain; */
 }
 
-
+h1 {
+  font-family: 'Retrofunk Script Personal Use', sans-serif;
+}                                
 a {
   color: #333;
   text-decoration: none;
@@ -20,6 +22,10 @@ a {
 
 h1,h2,h3 {
   padding-bottom: 20px;
+}
+
+h1 {
+  font-family: 'retrofunk_script_personal_uRg';
 }
 
 p {
