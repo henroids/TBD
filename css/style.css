@@ -24,6 +24,10 @@ h1 {
   font-family: "Retrofunk, sans-serif";
 }
 
+.header_text {
+  padding-top: 70px;
+}
+
 h1,h2,h3 {
   padding-bottom: 20px;
 }
@@ -38,6 +42,17 @@ h1,h2,h3 {
 #navbar a {
   color: white;
   text-decoration: none;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-container > div {
+  margin: 10px;
+  padding: 20px;
+  font-size: 18px;
 }
 
 .home {
@@ -55,6 +70,8 @@ h1,h2,h3 {
   text-align: center;
   /* margin-bottom: 50px; */
 }
+
+
 
 /* pizza boxes */
 #showcase ul li {
