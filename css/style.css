@@ -14,7 +14,7 @@ html {
 }
 
 body {
-  background: url("../img/toppings.svg") ;
+  background: url("../img/toppings.svg") center center;
 }
 
 /* utility classes  */
