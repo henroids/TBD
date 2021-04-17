@@ -10,6 +10,7 @@
 html {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   line-height: 1.7rem;
+  background: url("../img/toppings.svg") center center/contain;
   /* background: url("../img/toppings.png")center center/contain; */
 }
 
@@ -20,6 +21,7 @@ html {
   overflow: auto;
   padding: 0 20px;
 }
+
 h1 {
   font-family: "Retrofunk, sans-serif";
 }
@@ -66,6 +68,15 @@ h1,h2,h3 {
   background: blanchedalmond;
 } */
 
+.pizza_boxes {
+  margin-top: 50px;
+  background: url("../img/pizza\ boxes.svg") no-repeat center center/contain;
+  height: 500px;
+  text-align: center;
+  line-height: 120px;
+  padding-top: 30px;
+}
+
 #showcase .blue_box {
   z-index: 4;
   background: url("../img/blue_box.svg") no-repeat center center/contain;
@@ -79,14 +90,14 @@ h1,h2,h3 {
   margin-bottom: -175px;
   margin-left: 80px;
   transform: rotate(-5deg);
-  border: black 2px solid;
+  /* border: black 2px solid; */
 }
 #showcase .green_box {  
   z-index: 2;
   background: url("../img/green_box.svg") no-repeat center center/contain;
   margin-bottom: -195px;
   transform: rotate(5deg);
-  border: black 2px solid;
+  /* border: black 2px solid; */
 }
 #showcase .purple_box {  
   z-index: 1;
@@ -154,4 +165,16 @@ h1,h2,h3 {
 #navbar .topnav ul li a:hover {
   background: #333;
   color: blanchedalmond;
+}
+
+.deals {
+  background: #514875;
+  text-align: center;
+  border-radius: 90px;
+  color: white;
+  padding-top: 20px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
