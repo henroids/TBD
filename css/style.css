@@ -14,7 +14,7 @@ html {
 
 @font-face {
   font-family: "Retrofunk, sans-serif";
-  src: url(../css/retrofunkscriptpersonaluse-v6xo-webfont.woff);
+  src: url("../css/retrofunkscriptpersonaluse-v6xo-webfont.woff");
   font-weight: bold;
 }
 
@@ -139,12 +139,11 @@ li {
   margin: 0px;
 }
 
-<<<<<<< Updated upstream
 
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
   width: 100%; 
-  padding: 12px; 
+  padding: 12px;
   background: #EAE4CA;
   border: 1px solid #ABA588; 
   border-radius: 10px; 
@@ -212,5 +211,5 @@ input[type=submit]:hover {
   justify-items: center;
   align-items: center;
 }
-=======
->>>>>>> Stashed changes
+
+
