@@ -13,7 +13,8 @@ html {
 }
 
 body {
-  background: url("../img/toppings.svg") center center;
+  background-image: url("../img/toppings.svg");
+  backdrop-filter: brightness(25%);
 }
 
 /* utility classes  */
@@ -170,10 +171,11 @@ h1,h2,h3 {
 }
 
 .deals {
-  background: #514875;
+  border: 10px solid yellow;
+  background: #DEB92A;
   text-align: center;
   border-radius: 90px;
-  color: white;
+  color: #514875;
   padding-top: 20px;
   margin-top: 20px;
   margin-bottom: 50px;
