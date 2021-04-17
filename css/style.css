@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  list-style: none;
 }
 
 /* main styling */
@@ -12,31 +13,19 @@ html {
   /* background: url("../img/toppings.png")center center/contain; */
 }
 
-@font-face {
-  font-family: "Retrofunk, sans-serif";
-  src: url(../css/retrofunkscriptpersonaluse-v6xo-webfont.woff);
-  font-weight: bold;
+/* utility classes  */
+.container {
+  margin: auto;
+  max-width: 900px;
+  overflow: auto;
+  padding: 0 20px;
 }
-
 h1 {
   font-family: "Retrofunk, sans-serif";
-}
-
-a {
-  color: #333;
-  text-decoration: none;
 }
 
 h1,h2,h3 {
   padding-bottom: 20px;
-}
-
-h1 {
-  font-family: 'retrofunk_script_personal_uRg';
-}
-
-p {
-  margin: 10px 0;
 }
 
 /* navbar */
@@ -48,6 +37,7 @@ p {
 
 #navbar a {
   color: white;
+  text-decoration: none;
 }
 
 .home {
@@ -63,50 +53,45 @@ p {
   background: url("../img/banner.svg") center center/contain;
   height: 180px;
   text-align: center;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
 }
 
 /* pizza boxes */
-.blue_box {
+#showcase ul li {
   position: relative;
+  cursor: pointer;
+}
+
+/* #showcase ul li:hover {
+  background: blanchedalmond;
+} */
+
+#showcase .blue_box {
   z-index: 4;
   background: url("../img/blue_box.svg") no-repeat center center/contain;
   margin-bottom: -155px;
   margin-left: 20px;
+  border: black 2px solid;
 }
-.pink_box {
-  position: relative;
+#showcase .pink_box {  
   z-index: 3;
   background: url("../img/pink_box.svg") no-repeat center center/contain;
   margin-bottom: -175px;
   margin-left: 80px;
   transform: rotate(-5deg);
+  border: black 2px solid;
 }
-.green_box {
-  position: relative;
+#showcase .green_box {  
   z-index: 2;
   background: url("../img/green_box.svg") no-repeat center center/contain;
   margin-bottom: -195px;
   transform: rotate(5deg);
+  border: black 2px solid;
 }
-.purple_box {
-  position: relative;
+#showcase .purple_box {  
   z-index: 1;
   background: url("../img/purple_box.svg") no-repeat center center/contain;
   margin-left: 60px;
-}
-
-.menu ul li {
-  height: 20em;
-}
-ul {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-li {
-  margin: 25px;
 }
 
 /* pizza cards  */
@@ -140,4 +125,33 @@ li {
 
 .beverages ul li {
   margin: 0px;
+}
+
+#navbar .topnav {
+  background: #514875;
+  color: white;
+  overflow: auto;
+}
+
+#navbar .topnav a {
+  color: white;
+}
+
+#navbar .topnav ul {
+  float: right;
+}
+
+#navbar .topnav ul li {
+  float: left;
+}
+
+#navbar .topnav ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+
+#navbar .topnav ul li a:hover {
+  background: #333;
+  color: blanchedalmond;
 }
