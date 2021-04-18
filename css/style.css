@@ -206,6 +206,21 @@ sides cards
   height: 300px;
 }
 
+.olive {
+  background: url("../img/olive.svg") no-repeat center center/contain;
+  height: 300px;
+}
+
+.parm {
+  background: url("../img/parm.svg") no-repeat center center/contain;
+  height: 300px;
+}
+
+.mar {
+  background: url("../img/mar.svg") no-repeat center center/contain;
+  height: 300px;
+}
+
 .card p {
   /* color: white; */
   text-align: center;
