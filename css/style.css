@@ -211,8 +211,23 @@ h1,h2,h3 {
   text-align: center;
   width: 200px;
 }
+.btn2 {
+  border: none;
+  background: url("../img/button.svg") no-repeat center center;
+  height: 75px;
+  position: relative;
+  margin-left: 300px;
+  margin-top: -50px;
+  text-align: center;
+  width: 200px;
+}
 
 .btn .add {
+  cursor: pointer;
+  color: white;
+  padding: 17px;
+}
+.btn2 .add2 {
   cursor: pointer;
   color: white;
   padding: 17px;
@@ -226,10 +241,26 @@ h1,h2,h3 {
   padding: 0;
 }
 
+.btn2:hover {
+  background: url("../img/button_hover.svg") no-repeat center center;
+  /* height: 75px; */
+  cursor: pointer;
+  color: white;
+  padding: 0;
+}
+
 .btn:active {
   background: url("../img/button_pressed.svg") no-repeat center center;
   width: 230px;
 }
+
+.btn2:active {
+  background: url("../img/button_pressed.svg") no-repeat center center;
+  /* width: 230px; */
+  height: 90px;
+}
+
+
 
 /* side menu  */
 .chick {
@@ -308,3 +339,39 @@ h1,h2,h3 {
 }
 
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+.small_pep {
+  margin-top: 100px;
+  height: 200px;
+  background: url("../img/small_pep.svg") no-repeat center center/contain;
+}
+.small_supreme {
+  margin-top: 100px;
+  height: 200px;
+  background: url("../img/small_supreme.svg") no-repeat center center/contain;
+}
+.small_pine {
+  margin-top: 100px;
+  height: 200px;
+  background: url("../img/small_pine.svg") no-repeat center center/contain;
+}
+.small_olive {
+  margin-top: 100px;
+  height: 200px;
+  background: url("../img/small_olive.svg") no-repeat center center/contain;
+}
+.small_mar {
+  margin-top: 100px;
+  height: 200px;
+  background: url("../img/small_mar.svg") no-repeat center center/contain;
+}
+.small_parm {
+  margin-top: 100px;
+  height: 200px;
+  background: url("../img/small_parm.svg") no-repeat center center/contain;
+}
+
+.one_click {
+  display: flex;
+  overflow: scroll hidden;
+}
