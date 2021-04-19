@@ -195,33 +195,40 @@ h1,h2,h3 {
   padding-top: 150px;
 }
 
+.total_pizza {
+  margin: 40px;
+  padding-bottom: 20px;
+  width: 450px;
+}
+
 .btn {
+  border: none;
   background: url("../img/button.svg") no-repeat center center;
   height: 75px;
   position: relative;
   margin-left: 300px;
   margin-top: -50px;
   text-align: center;
+  width: 200px;
 }
 
 .btn .add {
   cursor: pointer;
   color: white;
-  padding: 0;
+  padding: 17px;
 }
 
 .btn:hover {
-  background: url("../img/button_hover.svg") no-repeat center center/contain;
-  height: 75px;
+  background: url("../img/button_hover.svg") no-repeat center center;
+  /* height: 75px; */
   cursor: pointer;
   color: white;
   padding: 0;
 }
 
 .btn:active {
-  background: url("../img/button_pressed.svg") no-repeat center center/contain;
-  margin-right: -15px;
-  padding-bottom: -10px;
+  background: url("../img/button_pressed.svg") no-repeat center center;
+  width: 230px;
 }
 
 /* side menu  */
