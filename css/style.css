@@ -388,7 +388,6 @@ p {
   overflow-x: scroll;
 }
 
-<<<<<<< HEAD
 /*delivery form*/
 
 .delivery-column {
@@ -415,7 +414,7 @@ p {
 
 .payment-container {
   max-width: 800px;
-  background-color: #EAE4CA;
+    background-color: #EAE4CA;
   padding: 5px 20px 15px 20px;
   border: 1px solid lightgrey;
   border-radius: 10px;
@@ -425,21 +424,6 @@ p {
 }
 
 
-@media (max-width: 800px) {
-  .payment-container, .contact-container, .form-container {
-      flex: 100%;
-    max-width: 800px;
-    flex-direction: column;
-  }
-
-
-.container {
-  background-color: #dbd4d4;
-  padding: 5px 20px 15px 20px;
-  border: 1px solid lightgrey;
-  border-radius: 10px;
-}
-
 
 input[type=text] {
   width: 100%;
@@ -447,6 +431,8 @@ input[type=text] {
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 10px;
+  box-sizing: border-box;
+  resize: vertical;
 }
 
 label {
@@ -469,36 +455,46 @@ span.price {
   color: grey;
 }
 
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
-
-@media (max-width: 800px) {
-  .column {
-    flex-direction: column;
-  }
-  .col-25 {
-    margin-bottom: 20px;
-  }
-}
 
 /* contact container*/
 
-.form-container {
-  border-radius: 5px;
-  padding: 20px;
-  flex: 1;
-  margin-left: 200px;
-}
-
 .contactParent {
+  max-width: 800px;
   display: flex;
   flex-direction: row;
-  margin: auto;
-  max-width: 800px;
-  justify-content: center;
-  margin-left: auto;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 100px;
+  margin-left: 350px;
   margin-right: auto;
+  margin-bottom: 100px;
 }
 
+#contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+#contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#contact-form input, #contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px #ddd solid;
+  display: block;
+  margin-bottom: 5px;
+}
+
+#contact-form textarea {
+  height: 200px;
+}
+
+#contact-form input:focus, #contact-form textarea:focus {
+  outline: none;
+  border-color: #f7c08a;
+}
 .contact-cardPic {
   display: flex;
   flex:1;
@@ -513,8 +509,27 @@ span.price {
   border-radius: 10px;
   margin-left: auto;
   margin-right: auto;
-=======
-.small_card {
-  margin-bottom: 20px;
->>>>>>> 54f587ecaee99c6d28079364702907ebcd75529a
 }
+
+.form-group {
+  border-radius: 5px;
+  padding: 20px;
+  flex: 1;
+  }
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
+
+@media (max-width: 800px) {
+  .column {
+    flex-direction: column;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
+  .payment-container, .form-group, .form-container, .contact-card, .contact-cardPic {
+      flex: 100%;
+    max-width: 800px;
+    flex-direction: column;
+  }
+}
+
