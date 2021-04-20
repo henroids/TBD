@@ -586,7 +586,7 @@ span.price {
 }
 
 
-#categoryGrid {
+#dealscategoryGrid {
   margin: 30px 10%;
   display: grid;
   grid-template-rows: 50vh 50vh;
@@ -595,5 +595,35 @@ span.price {
   grid-template-areas:
   "deal1 deal2"
   "deal3 deal4"
+  ;
+}
+
+
+/* Footer Grid */
+#Contact_Us {
+  grid-area: Contact_Us;
+}
+
+#Hours {
+  grid-area: Hours;
+}
+
+#Follow_Us {
+  grid-area: Follow_Us;
+}
+
+
+#footercategoryGrid {
+  margin: 30px;
+  color: white;
+  background-color: #333;
+  text-align: center;
+  align-items: center;
+  display: grid;
+  grid-template-rows: 300px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-template-areas:
+  "Contact_Us Hours Follow_Us"
   ;
 }
