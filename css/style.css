@@ -627,3 +627,10 @@ span.price {
   "Contact_Us Hours Follow_Us"
   ;
 }
+
+/* Rewards Page */
+.rewards {
+  text-align: center;
+  padding-top: 30px;
+  color: white;
+}
