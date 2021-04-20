@@ -33,6 +33,18 @@ h1,h2,h3 {
   padding-bottom: 20px;
 }
 
+h1 {
+  font-family: 'retrofunk_script_personal_uRg';
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  margin: 10px 0;
+}
+
 /* navbar */
 #navbar {
   background: #7C7597;
@@ -378,11 +390,7 @@ h1,h2,h3 {
 
 /*delivery form*/
 
-* {
-  box-sizing: border-box;
-}
-
-.column {
+.delivery-column {
   display: -ms-flexbox;
   /* IE10 */
   display: flex;
@@ -399,19 +407,9 @@ h1,h2,h3 {
 }
 
 .col-50 {
-  -ms-flex: 50%;
+  -ms-flex: 25%;
   /* IE10 */
-  flex: 50%;
-}
-
-.col-75 {
-  -ms-flex: 75%;
-  /* IE10 */
-  flex: 75%;
-}
-
-.col-25, .col-50, .col-75 {
-  padding: 0 16px;
+  flex: 25%;
 }
 
 .payment-container {
@@ -424,6 +422,15 @@ h1,h2,h3 {
   margin-left: auto;
   margin-right: auto;
 }
+
+
+@media (max-width: 800px) {
+  .payment-container, .contact-container, .form-container {
+      flex: 100%;
+    max-width: 800px;
+    flex-direction: column;
+  }
+
 
 .container {
   background-color: #dbd4d4;
@@ -470,4 +477,39 @@ span.price {
   .col-25 {
     margin-bottom: 20px;
   }
+}
+
+/* contact container*/
+
+.form-container {
+  border-radius: 5px;
+  padding: 20px;
+  flex: 1;
+  margin-left: 200px;
+}
+
+.contactParent {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  max-width: 800px;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-cardPic {
+  display: flex;
+  flex:1;
+}
+
+.contact-card {
+  display: flex;
+  flex:1;
+  background: #EAE4CA;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
 }
