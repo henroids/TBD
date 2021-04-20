@@ -263,6 +263,7 @@ input[type=submit]:hover {
 #couches {
   grid-area: couches;
   background-image: url("../images/couch@2x.png");
+  color: #D980AC;
 }
 
 #patio {
