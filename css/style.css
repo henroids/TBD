@@ -58,7 +58,8 @@ p {
 
 .flex-container > div {
   margin: 10px;
-  padding: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
   font-size: 18px;
 }
 
@@ -229,4 +230,53 @@ input[type=submit]:hover {
   align-items: center;
 }
 
+/* Deals Page */
 
+.deals-header-text {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.deal_bg {
+  background: url("../img/toppings.svg");
+
+}
+
+.deals_ordernow {
+  border: 3px solid green;
+}
+
+.deal_button {
+  text-align: right;
+}
+
+#bookcases {
+  grid-area: bookcases;
+  background-image: url("../images/bookcases@2x.png");
+
+}
+#bedroom {
+  grid-area: bedroom;
+  background-image: url("../images/beds@2x.png");
+}
+
+#couches {
+  grid-area: couches;
+  background-image: url("../images/couch@2x.png");
+}
+
+#patio {
+  grid-area: patio;
+  background-image: url("../images/patio@2x.png");
+}
+
+#categoryGrid {
+  margin: 0px 5%;
+  display: grid;
+  grid-template-rows: 300px 300px 300px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+  "bookcases bedroom patio"
+  "couches couches patio"
+  ;
+}
