@@ -70,6 +70,8 @@ p {
   background: url("../img/banner.svg") center center/contain;
   height: 180px;
   text-align: center;
+  vertical-align: middle;
+  padding-top: 70px;
   /* margin-bottom: 50px; */
 }
 
@@ -614,7 +616,6 @@ span.price {
 
 
 #footercategoryGrid {
-  margin: 30px;
   color: white;
   background-color: #333;
   text-align: center;
@@ -633,4 +634,15 @@ span.price {
   text-align: center;
   padding-top: 30px;
   color: white;
+}
+
+
+.nav_container {
+  align-items: center;
+  text-align: center;
+}
+
+.main_nav {
+  align-items: center;
+  text-align: center;
 }
