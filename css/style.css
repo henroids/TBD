@@ -373,5 +373,9 @@ h1,h2,h3 {
 
 .one_click {
   display: flex;
-  overflow: scroll hidden;
+  overflow-x: scroll;
+}
+
+.small_card {
+  margin-bottom: 20px;
 }
