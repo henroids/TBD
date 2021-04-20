@@ -385,9 +385,10 @@ p {
 
 .one_click {
   display: flex;
-  overflow: scroll hidden;
+  overflow-x: scroll;
 }
 
+<<<<<<< HEAD
 /*delivery form*/
 
 .delivery-column {
@@ -512,4 +513,8 @@ span.price {
   border-radius: 10px;
   margin-left: auto;
   margin-right: auto;
+=======
+.small_card {
+  margin-bottom: 20px;
+>>>>>>> 54f587ecaee99c6d28079364702907ebcd75529a
 }
