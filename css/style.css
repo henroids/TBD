@@ -465,10 +465,7 @@ span.price {
   margin-left: 200px;
 }
 
-#couches {
-  grid-area: couches;
-  background-image: url("../images/couch@2x.png");
-  color: #D980AC;
+
 .contactParent {
   max-width: 800px;
   display: flex;
@@ -544,4 +541,59 @@ span.price {
   }
 }
 
+/* Deals Page */
+
+.deals-header-text {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.deal_bg {
+  background: url("../img/toppings.svg");
+
+}
+
+.deals_ordernow {
+  border: 3px solid green;
+}
+
+.deal_button {
+  text-align: right;
+}
+
+/* Deals Grid */
+#deal1 {
+  grid-area: deal1;
+  background-image: url("../img/Deal1.svg");
+  background-repeat: no-repeat;
+}
+#deal2 {
+  grid-area: deal2;
+  background-image: url("../img/Deal2.svg");
+  background-repeat: no-repeat;
+}
+
+#deal3 {
+  grid-area: deal3;
+  background-image: url("../img/Deal3.svg");
+  background-repeat: no-repeat;
+}
+
+#deal4 {
+  grid-area: deal4;
+  background-image: url("../img/Deal4.svg");
+  background-repeat: no-repeat;
+}
+
+
+#categoryGrid {
+  margin: 30px 10%;
+  display: grid;
+  grid-template-rows: 50vh 50vh;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  grid-template-areas:
+  "deal1 deal2"
+  "deal3 deal4"
+  ;
 }
