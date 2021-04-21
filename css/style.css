@@ -467,7 +467,6 @@ span.price {
   margin-left: 200px;
 }
 
-
 .contactParent {
   max-width: 800px;
   display: flex;
@@ -475,7 +474,7 @@ span.price {
   justify-content: space-evenly;
   align-items: center;
   margin-top: 100px;
-  margin-left: 350px;
+  margin-left: 450px;
   margin-right: auto;
   margin-bottom: 100px;
 }
@@ -498,7 +497,11 @@ span.price {
 }
 
 #contact-form textarea {
-  height: 200px;
+  border-radius: 10px;
+  max-height: 200px;
+  min-height: 200px;
+  max-width: 500px;
+  min-width: 500px;
 }
 
 #contact-form input:focus, #contact-form textarea:focus {
@@ -507,23 +510,23 @@ span.price {
 }
 .contact-cardPic {
   display: flex;
-  flex:1;
 }
 
 .contact-card {
   display: flex;
-  flex:1;
+  flex-direction: column;
   background: #EAE4CA;
   padding: 5px 20px 15px 20px;
   border: 1px solid lightgrey;
   border-radius: 10px;
-  margin-left: auto;
+  margin-top: auto;
+  margin-left: 150px;
   margin-right: auto;
 }
 
 .form-group {
   border-radius: 5px;
-  padding: 20px;
+  padding: 5px;
   flex: 1;
   }
 
@@ -536,11 +539,28 @@ span.price {
   .col-25 {
     margin-bottom: 20px;
   }
-  .payment-container, .form-group, .form-container, .contact-card, .contact-cardPic {
+  .payment-container {
       flex: 100%;
-    max-width: 800px;
-    flex-direction: column;
   }
+  .contactParent {
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .contact-cardPic {
+    max-width: 400px;
+    align-items: center;
+  }
+  .contact-card {
+    margin-left: 0%;
+    max-width: 400px;
+  }
+    #contact-form textarea {
+      margin-top: 10px;
+      border-radius: 10px;
+      max-height: 200px;
+      max-width: 200px;
+    }
 }
 
 /* Deals Page */
@@ -569,6 +589,7 @@ span.price {
   background-image: url("../img/Deal1.svg");
   background-repeat: no-repeat;
 }
+
 #deal2 {
   grid-area: deal2;
   background-image: url("../img/Deal2.svg");
@@ -646,3 +667,4 @@ span.price {
   align-items: center;
   text-align: center;
 }
+
