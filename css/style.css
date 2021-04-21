@@ -17,6 +17,14 @@ body {
   backdrop-filter: brightness(25%);
 }
 
+@font-face {
+  font-family: 'retrofunk_script_personal_uRg';
+  src: url('../font/retrofunkscriptpersonaluse-v6xo-webfont.woff2') format('woff2'),
+      url('../font/retrofunkscriptpersonaluse-v6xo-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* utility classes  */
 .container {
   margin: auto;
@@ -25,21 +33,16 @@ body {
   padding: 0 20px;
 }
 
-h1 {
-  font-family: "Retrofunk, sans-serif";
+  h1{
+    font-family: 'retrofunk_script_personal_uRg';
+    font-size: 3rem;
+  }
 }
 
 h1,h2,h3 {
   padding-bottom: 20px;
 }
 
-h1 {
-  font-family: 'retrofunk_script_personal_uRg';
-  justify-content: center;
-  align-items: center;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 p {
   margin: 10px 0;
