@@ -14,7 +14,8 @@ html {
 }
 
 body {
-  background-image: url("../img/toppings.svg");
+  background: url('../img/toppings.svg') center center/contain;
+  width: 100%;
   backdrop-filter: brightness(25%);
 }
 
@@ -196,7 +197,7 @@ li a {
   /* overflow: hidden; */
 }
 
-.cart a {
+/* .cart a { */
   position: sticky;
   background-color: royalblue;
   color: #fff;
