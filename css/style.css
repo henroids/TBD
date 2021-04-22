@@ -163,6 +163,7 @@ p {
 }
 
 nav li {
+  width: 70px;
   list-style: none;
   display: inline-block;
   padding-right: 10px;
