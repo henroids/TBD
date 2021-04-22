@@ -8,13 +8,15 @@
 
 body {
     background: url('../img/toppings.svg') center center;
-    backdrop-filter: brightness(25%);
+    /* backdrop-filter: brightness(25%); */
+    background-size: auto;
 }
 
 .body2 {
-    background: url('../images/toppings.svg') center center;
-    backdrop-filter: brightness(25%);
-    height: 2000px;
+    background: url('../img/toppings.svg') center center;
+    /* backdrop-filter: brightness(25%); */
+    /* height: 2000px; */
+    background-size: auto;
 }
 
 header {

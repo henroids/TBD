@@ -15,8 +15,9 @@ html {
 
 body {
   background: url('../img/toppings.svg') center center/contain;
-  width: 100%;
-  backdrop-filter: brightness(25%);
+  background-size: auto;
+  filter: opacity();
+  /* backdrop-filter: brightness(25%); */
 }
 
 @font-face {
@@ -197,7 +198,7 @@ li a {
   /* overflow: hidden; */
 }
 
-/* .cart a { */
+.cart a {
   position: sticky;
   background-color: royalblue;
   color: #fff;
