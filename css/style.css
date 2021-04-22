@@ -1,4 +1,5 @@
 /* reset */
+
 * {
   margin: 0;
   padding: 0;
@@ -29,9 +30,12 @@ body {
 /* utility classes  */
 .container {
   margin: auto;
-  max-width: 900px;
-  overflow: auto;
-  padding: 0 20px;
+  max-width: 1500px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  padding-bottom: 100px;
 }
 
   h1{
@@ -43,6 +47,16 @@ h1,h2,h3 {
   padding-bottom: 20px;
 }
 
+header {
+  background: url('../images/banner.svg') center center/contain;
+  margin: -10px;
+  /* background-image: url('images/cover.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; */
+  height: 200px;
+  position: relative;
+}
 
 p {
   margin: 10px 0;
@@ -69,7 +83,7 @@ p {
   /* background: url("../img/blue_box.png") no-repeat center center/contain; */
 }
 
-.banner {
+/* .banner { */
   background: url("../img/banner.svg") center center/contain;
   height: 180px;
   text-align: center;
@@ -97,33 +111,6 @@ p {
   padding-top: 30px;
 }
 
-#showcase .blue_box {
-  z-index: 4;
-  background: url("../img/blue_box.svg") no-repeat center center/contain;
-  margin-bottom: -155px;
-  margin-left: 20px;
-  border: black 2px solid;
-}
-#showcase .pink_box {  
-  z-index: 3;
-  background: url("../img/pink_box.svg") no-repeat center center/contain;
-  margin-bottom: -175px;
-  margin-left: 80px;
-  transform: rotate(-5deg);
-  /* border: black 2px solid; */
-}
-#showcase .green_box {  
-  z-index: 2;
-  background: url("../img/green_box.svg") no-repeat center center/contain;
-  margin-bottom: -195px;
-  transform: rotate(5deg);
-  /* border: black 2px solid; */
-}
-#showcase .purple_box {  
-  z-index: 1;
-  background: url("../img/purple_box.svg") no-repeat center center/contain;
-  margin-left: 60px;
-}
 
 #navbar .topnav {
   background: #514875;
@@ -167,7 +154,6 @@ p {
   padding-right: 20px;
 }
 
-<<<<<<< HEAD
 .logo {
   height: 80px;
   margin-top: -5px;
@@ -219,8 +205,6 @@ li a {
   text-decoration: none;
 }
 
-=======
->>>>>>> parent of 598329b (hope this works)
 .video_1 {
   float: left;
 }
@@ -616,23 +600,25 @@ nav {
   padding: 50px 60px 0 60px;
 }
 
-nav li {
+/* nav li { */
   list-style: none;
   display: inline-block;
   padding-right: 10px;
   padding-left: 10px;
 }
 
-nav li span {
+/* nav li span { */
   padding-left: 5px;
 }
 
-li a {
+/* li a { */
   padding: 5px;
   background-color: white;
   text-decoration: none;
 }
 .form-group {
+  display: flex;
+  max-width: 1500px;
   border-radius: 5px;
   padding: 5px;
   flex: 1;
@@ -783,3 +769,42 @@ li a {
   text-align: center;
 }
 
+.add-cart {
+    position: absolute;
+    text-decoration: none;;
+    /* margin: -100px; */
+    /* padding-top: 20px; */
+    /* border: black 1px solid; */
+    /* margin-left: 80px; */
+    height: 70px;
+    width: 220px;
+    background: url('../images/button.svg') no-repeat center center/contain;
+    /* background-color: darkgrey; */
+    transition: all 0.11s ease-in-out;
+    /* opacity: 0; */
+    cursor: pointer;
+    text-align: center;
+}
+
+.cart1:hover {
+    /* bottom: 50px; */
+    background: url('../images/button_hover.svg') no-repeat center center/contain;
+    opacity: 1;
+    /* padding: 10px; */
+    text-decoration: none;
+}
+
+.cart1:active {
+    /* bottom: 50px; */
+    background: url('../images/button_pressed.svg') no-repeat center center/contain;
+    /* margin-left: 10px; */
+    opacity: 1;
+    overflow: visible;
+    /* padding: 10px; */
+    text-decoration: none;
+    margin-left: 310px;
+}
+
+.cart1 {
+  margin-left: 300px;
+}
