@@ -166,8 +166,9 @@ p {
   margin-bottom: 10px;
 }
 
+
 nav li {
-  width: 70px;
+  margin-top: 20px;
   list-style: none;
   display: inline-block;
   padding-right: 10px;
