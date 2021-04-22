@@ -1,127 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/order.css">
-    <title>Pizza Mania | Menu</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Pizza Mania | Order</title>
 </head>
 <body>
-    <header>
-        <div class="overlay"></div>
-        <nav>
-            <h2></h2>
-            <img class="logo" src="./images/logo.svg" alt="">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="order.html">Menu</a></li>
-                <li><a href="deals.html">Deals</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li class="cart">
-                    <a href="cart.html">
-                        <ion-icon name="basket"></ion-icon><span>0</span>
-                    </a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-<!------------------------------ PIZZA -->
-    <div class="container">
-        <h1>PIZZAS</h1>
-        <div id="pep" class="image">
-            <img src="images/pep_card.svg" alt="thsirt1">
-            <h3>Pepperoni Pizza</h3>
-            <h3>$15.00</h3>
-            <a class="add-cart cart1">Add To Cart</a>
-            <input type="hidden" value="15" />
+  <header>
+    <nav id="navbar">
+      <h1 class="logo"><a href="index.html">Pizza Mania</a></h1>
+      <div class="banner">
+        <h1>Menu</h1>
+      </div>
+      <div class="topnav">
+        <div class="nav_container">
+          <ul>
+            <li class="main_nav"><a href="order.html">Pizza</a></li>
+            <li class="main_nav"><a href="order.html">Sides</a></li>
+            <li class="main_nav"><a href="order.html">Drinks</a></li>
+          </ul>
         </div>
-        <div id="sup" class="image">
-            <img src="images/supreme_card.svg" alt="thsirt1">
-            <h3>Supreme Pizza</h3>
-            <h3>$20.00</h3>
-            <a class="add-cart cart2">Add To Cart</a>
-            <input type="hidden" value="20" />
+      </div>
+  </header>
+  <div class="container">
+    <div class="menu">
+      <!-- pizza only  -->
+      <div class="total_pizza">
+      <div class="pizza">
+        <div class="card pep">
+          <p>Peperoni Pizza</p>
         </div>
-        <div id="pine" class="image">
-            <img src="images/pine_card.svg" alt="thsirt1">
-            <h3>Pineapple Pizza</h3>
-            <h3>$10.00</h3>
-            <a class="add-cart cart3">Add To Cart</a>
-            <input type="hidden" value="15" />
-        </div>
-        <div id="olive" class="image">
-            <img src="images/olive_card.svg" alt="thsirt1">
-            <h3>Olive Pizza</h3>
-            <h3>$25.00</h3>
-            <a class="add-cart cart4">Add To Cart</a>
-            <input type="hidden" value="20" />
-        </div>
-        <div id="parm" class="image">
-            <img src="images/parm.svg" alt="thsirt1">
-            <h3>Parm and Ham Pizza</h3>
-            <h3>$25.00</h3>
-            <a class="add-cart cart4">Add To Cart</a>
-            <input type="hidden" value="20" />
-        </div>
-        <div id="mar" class="image">
-            <img src="images/mar.svg" alt="thsirt1">
-            <h3>Margherita Pizza</h3>
-            <h3>$25.00</h3>
-            <a class="add-cart cart4">Add To Cart</a>
-            <input type="hidden" value="20" />
-        </div>
-        <br>
-        <h1>SIDES</h1>
-        <br>
-        <div id="spicy" class="image">
-            <img src="images/chicken_ card.svg" alt="thsirt1">
-            <h3>Spicy Chicken</h3>
-            <h3>$25.00</h3>
-            <a class="add-cart cart4">Add To Cart</a>
-            <input type="hidden" value="20" />
-        </div>
-        <div id="chick" class="image">
-            <img src="images/chickensalad_card.svg" alt="thsirt1">
-            <h3>Chicken Salad</h3>
-            <h3>$25.00</h3>
-            <a class="add-cart cart4">Add To Cart</a>
-            <input type="hidden" value="20" />
-        </div>
-        <div id="caeser" class="image">
-            <img src="images/ceasersalad_card.svg" alt="thsirt1">
-            <h3>Caeser Salad</h3>
-            <h3>$25.00</h3>
-            <a class="add-cart cart4">Add To Cart</a>
-            <input type="hidden" value="20" />
-        </div>
-        <br>
-        <h1>DRINKS</h1>
-        <br>
-        <div id="drink" class="image">
-            <div class="dropdown">
-                <button class="dropbtn">Choose a Beverage</button>
-                <div class="dropdown-content">
-                  <a>Coke</a>
-                  <a>Sprite</a>
-                  <a>Root Beer</a>
-                  <a>Dr. Pepper</a>
-                  <a>Lemonade</a>
-                </div>
-              </div>
-            <img src="images/drink_card.svg" alt="thsirt1">
-            
-            <h3>Beverages</h3>
-            <h3>$25.00</h3>
-            <a class="add-cart cart4">Add To Cart</a>
-            <input type="hidden" value="20" />
-        </div>
+            <div class="btn">
+              <p class="add">Add to Order</p>
+            </div>          
+      </div>
     </div>
+      <div class="total_pizza">
+      <div class="pizza">
+        <div class="card supreme">
+          <p>Supreme Pizza</p>
+        </div>
+            <div class="btn">
+              <p class="add">Add to Order</p>
+            </div>          
+      </div>
+    </div>
+    <div class="total_pizza">
+      <div class="pizza">
+        <div class="card olive">
+          <p>Olive Pizza</p>
+        </div>
+        <div class="btn">
+          <p class="add">Add to Order</p>
+        </div>          
+      </div>
+    </div>
+    <div class="total_pizza">
+    <div class="pizza">
+      <div class="card pine">
+        <p>Pinapple Pizza</p>
+      </div>
+          <div class="btn">
+            <p class="add">Add to Order</p>
+          </div>          
+    </div>
+  </div>
+  <div class="total_pizza">
+    <div class="pizza">
+      <div class="card mar">
+        <p>Margherrita Pizza</p>
+      </div>
+      <div class="btn">
+        <p class="add">Add to Order</p>
+      </div>          
+    </div>
+  </div>
+  <div class="total_pizza">
+  <div class="pizza">
+    <div class="card parm">
+      <p>Parm & Ham Pizza</p>
+    </div>
+        <div class="btn">
+          <p class="add">Add to Order</p>
+        </div>          
+  </div>
+</div>
+  <!-- side food only  -->
 
-    <script src="./js/main.js"></script>
-    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
-
+  <div class="total_sides">
+    <div class="sides">
+      <div class="card chick">
+        <p>Spicy Wings</p>
+      </div>
+      <div class="btn">
+        <p class="add">Add to Order</p>
+      </div>          
+    </div>
+  </div>
+  <div class="total_sides">
+    <div class="sides">
+      <div class="card caesar">
+        <p>Caesar Salad</p>
+      </div>
+      <div class="btn">
+        <p class="add">Add to Order</p>
+      </div>          
+    </div>
+  </div>
+  <div class="total_sides">
+    <div class="sides">
+      <div class="card chick_salad">
+        <p>Chicken Salad</p>
+      </div>
+      <div class="btn">
+        <p class="add">Add to Order</p>
+      </div>          
+    </div>
+  </div>
+      
+  <!-- drink menu  -->
+  <div id="drinks" class="total_drinks">
+    <div class="drinks">
+      <div class="card soda">
+        <div class="dropdown">
+          <button class="dropbtn">Choose a Beverage</button>
+          <div class="dropdown-content">
+            <a href="#drink">Coke</a>
+            <a href="#drink">Sprite</a>
+            <a href="#drink">Root Beer</a>
+            <a href="#drink">Dr. Pepper</a>
+            <a href="#drink">Lemonade</a>
+          </div>
+        </div>
+      </div>
+      <div class="btn">
+        <p class="add">Add to Order</p>
+      </div>          
+    </div>
+  </div>
+      
+    </div>
+  </div>
 </body>
 </html>
