@@ -50,7 +50,22 @@
           <div class="contact-card">
       <h1>Contact Us</h1>
       <p>Please fill out the form below to contact us</p>
-      <form action="process.php">
+
+      <form action="mailto:henroids@hotmail.com"
+method="POST"
+enctype="multipart/form-data"
+name="EmailForm">
+    Name:<br>
+    <input placeholder="It's-a me, Mario!" type="text" size="19" name="Contact-Name"><br><br>
+    Email:<br>
+    <input placeholder="mamamiapizzaria@maniac.com" type="email" name="Contact-Email"><br><br> 
+    Message:<br> 
+    <textarea placeholder="We love your pizza, and you've never made any mistakes. Ok bye." name="Contact-Message" rows="6″ cols="20″>
+    </textarea><br><br> 
+    <button class="add-carts cart1" type="submit" value="Submit">Submit</button>
+</form>
+
+      <!-- <form action="process.php">
         <div class="form-group">
           <label for="name">Name</label>
           <input placeholder="It's-a me, Mario!" type="text" name="name" id="name">
@@ -64,8 +79,8 @@
           <textarea placeholder="We love your pizza, and you've never made any mistakes. Ok bye." name="message" id="message"></textarea>
           <a class="add-carts cart1">Submit</a>
         </div>
-        <!-- <button type="submit" class="btn">Submit</button> -->
-      </form>
+        <button type="submit" class="btn">Submit</button>
+      </form> -->
       </div>
     </section>
   </div>
