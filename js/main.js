@@ -16,19 +16,19 @@ let products = [
     {
         name: "Pineapple",
         tag: "pineapple",
-        price: 15,
+        price: 13,
         inCart: 0
     },
     {
         name: "Olive",
         tag: "olive",
-        price: 20,
+        price: 15,
         inCart: 0
     },
     {
         name: "Parm and Ham",
         tag: "parmandham",
-        price: 20,
+        price: 25,
         inCart: 0
     },
     {
@@ -40,25 +40,25 @@ let products = [
     {
         name: "Spicy Chicken",
         tag: "spicychicken",
-        price: 20,
+        price: 12,
         inCart: 0
     },
     {
         name: "Chicken Salad",
         tag: "chickensalad",
-        price: 20,
+        price: 15,
         inCart: 0
     },
     {
         name: "Caeser Salad",
         tag: "caesersalad",
-        price: 20,
+        price: 10,
         inCart: 0
     },
     {
         name: "Beverage",
         tag: "beverage",
-        price: 20,
+        price: 3,
         inCart: 0
     }
 ];
