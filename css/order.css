@@ -10,6 +10,7 @@ body {
     background: url('../img/toppings.svg') center center;
     /* backdrop-filter: brightness(25%); */
     background-size: auto;
+    background-attachment: fixed;
 }
 
 .body2 {
@@ -17,6 +18,7 @@ body {
     /* backdrop-filter: brightness(25%); */
     /* height: 2000px; */
     background-size: auto;
+    background-attachment: fixed;
 }
 
 header {
@@ -44,7 +46,7 @@ header {
 }
 
 nav {
-    margin-right: 50px;
+    /* margin-right: 50px; */
     position: absolute;
     top: 0;
     right: 0;
@@ -52,8 +54,8 @@ nav {
     z-index: 2;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 50px 60px 0 60px;
+    justify-content: center;
+    padding: 53px 60px 0 60px;
 }
 
 nav li {
@@ -61,23 +63,25 @@ nav li {
     width: 80px;
     list-style: none;
     display: inline-block;
-    padding-right: 10px;
-    padding-left: 10px;
+    /* padding-right: 10px; */
+    /* padding-left: 10px; */
 }
 
 nav li span {
     padding-left: 5px;
+    color: black;
 }
 
 li a {
     padding: 10px;
-    border-radius: 20px;
+    border-radius: 90px;
     background-color: #000;
     text-decoration: none;
 }
 
 .cart ion-icon {
    vertical-align: bottom;
+   color: black;
    font-size: 20px;
    padding-right: 5px;
 }
@@ -92,7 +96,8 @@ h1 {
 
 .cart a {
     position: sticky;
-    background-color: royalblue;
+    background-color: #CC6843;
+    border: black 5px solid;
     color: #fff;
     cursor: pointer;
     text-decoration: none;
@@ -157,9 +162,15 @@ h1 {
 }
 
 .logo {
-    height: 80px;
-    margin-top: -5px;
-    margin-bottom: 10px;
+    display: flex;
+    border: solid black 5px;
+    background: #CC6843;
+    border-radius: 90px;
+    padding: 8px;
+    height: 100px;
+    margin-top: -20px;
+    margin-right: 10px;
+    /* margin-bottom: 10px; */
 }
 
 .cart {
@@ -177,8 +188,10 @@ h1 {
 }
 
 .container-products ion-icon {
-    font-size: 25px;
-    color: blue;
+    font-size: 40px;
+    border: #A59DC6 5px solid;
+    border-radius: 90px;
+    color: #CC6843;
     margin-left: 10px;
     margin-right: 10px;
     cursor: pointer;
@@ -325,7 +338,7 @@ h1 {
     transform: translate(-50%, -50%);
     border: none;
     cursor: pointer;
-    background-color: #4CAF50;
+    background-color: #A59DC6;
     color: white;
     padding: 16px;
     font-size: 16px;

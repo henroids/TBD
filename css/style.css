@@ -21,6 +21,7 @@ html {
 body {
   background: url('../img/toppings.svg') center center/contain;
   background-size: auto;
+  background-attachment: fixed;
   filter: opacity();
   /* backdrop-filter: brightness(25%); */
 }
