@@ -6,6 +6,10 @@
     color: white;
 }
 
+h2 {
+    margin-right: 20px;
+}
+
 body {
     background: url('../img/toppings.svg') center center;
     /* backdrop-filter: brightness(25%); */
