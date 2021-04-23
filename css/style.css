@@ -14,8 +14,6 @@ h2 {
   text-decoration: none;
 }
 
-h1
-
 h2 {
   color: #7C7597;
 }
@@ -108,18 +106,17 @@ text-decoration: none;
 }
 
 h1{
-  margin: 50px;
+  margin: auto;
   border-radius: 90px;
-  padding-left: 10px;
-  padding-right: 10px;
+  /* padding-left: 10px; */
+  /* padding-right: 10px; */
   text-align: center;
   background: #B7D79E center center/cover;
   height: 80px;
   color: #514875;
   padding-top: 25px;
-
-  /* font-family: 'retrofunk_script_personal_uRg'; */
-  font-size: 3rem;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 .cart a {
