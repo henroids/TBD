@@ -891,6 +891,24 @@ span.price {
   text-align: center;
 }
 
+/* pizza box nav ---------------  */
 
+.pizza_boxes .order {
+  margin-top: 25px;
+}
+.pizza_boxes .deal {
+  margin-top: 5px;
+  margin-right: 500px;
+  transform: rotate(7deg);
+}
+.pizza_boxes .come {
+  margin-top: -50px;
+  margin-left: 500px;
+  transform: rotate(-15deg);
+}
+.pizza_boxes .contact {
+  margin-top: ;
+  margin-right: 100px;
+}
 
 
