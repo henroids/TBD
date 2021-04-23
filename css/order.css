@@ -380,9 +380,9 @@ h1 {
   
   .payment-container {
     max-width: 800px;
-      background-color: #A59DC6;
+      background-color: #7C7597;
     padding: 5px 20px 15px 20px;
-    border: 1px solid lightgrey;
+    /* border: 1px solid lightgrey; */
     border-radius: 40px;
     display: block;
     margin-left: auto;
