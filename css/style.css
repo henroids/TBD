@@ -108,13 +108,13 @@ text-decoration: none;
 h1{
   margin: auto;
   border-radius: 90px;
-  /* padding-left: 10px; */
-  /* padding-right: 10px; */
+  padding-left: 10px;
+  padding-right: 10px;
   text-align: center;
   background: #B7D79E center center/cover;
-  height: 80px;
+  height: 60px;
   color: #514875;
-  padding-top: 25px;
+  padding-top: 15px;
   margin-top: 20px;
   margin-bottom: 10px;
 }
