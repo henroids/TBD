@@ -7,6 +7,7 @@
   font-family: 'Roboto', sans-serif;
   list-style: none;
   color: white;
+  text-decoration: none;
 }
 
 body {
@@ -278,7 +279,7 @@ p {
 /* pizza boxes */
 #showcase ul li {
   position: relative;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 
 /* #showcase ul li:hover {
@@ -892,11 +893,18 @@ span.price {
 }
 
 /* pizza box nav ---------------  */
+.pizza_boxes {
+  color: #000;
+}
 
 .pizza_boxes .order {
   margin-top: 25px;
+  font-size: 90px;
+  margin-left: 100px;
+  transform: rotate(-1deg);
 }
 .pizza_boxes .deal {
+  font-size: 80px;
   margin-top: 5px;
   margin-right: 500px;
   transform: rotate(7deg);
