@@ -492,3 +492,31 @@ h1 {
     margin-left: 150px;
     margin-right: auto;
   }
+
+  .add-carts {
+    display: inline-block;
+    position: absolute;
+    text-decoration: none;;
+    /* margin: -100px; */
+    padding-top: 15px;
+    color: white;
+    /* border: black 1px solid; */
+    /* margin-left: -80px; */
+    height: 70px;
+    width: 220px;
+    background: url('../images/button.svg') no-repeat center center/contain;
+    /* background-color: darkgrey; */
+    transition: all 0.11s ease-in-out;
+    /* opacity: 0; */
+    cursor: pointer;
+    text-align: center;
+  }
+
+  .add-carts {
+    margin-left: 260px;
+  }
+  
+  .add-carts:active {
+    background: url('../img/button_pressed.svg') no-repeat center center/contain;
+    margin-left: 270px;
+  }
