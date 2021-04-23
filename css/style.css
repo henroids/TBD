@@ -896,24 +896,23 @@ span.price {
 .pizza_boxes {
   margin: auto;
   display: flex;
-  max-width: 500px;
+  /* max-width: 500px; */
   color: #000;
 }
 
-.order {
-  display: flex;
+/* .order {  
+  min-width: 700px;
   position: ;
   border: black 5px solid;
   width: 600px;
-  /* opacity: 0; */
+  opacity: 0;
   margin-top: 15px;
   font-size: 90px;
   margin-left: 240px;
   transform: rotate(-1deg);
 }
-.deal {
-  /* position: relative ; */
-  /* opacity: 0; */
+.deal {  
+  opacity: 0;
   width: 400px;
   height: 100px;
   border: black 5px solid;
@@ -923,7 +922,7 @@ span.price {
   margin-top: 20px;
 }
 .come {
-  /* opacity: 0; */
+  opacity: 0;
   width: 355px;
   height: 100px;
   border: black 5px solid;
@@ -933,7 +932,7 @@ span.price {
   transform: rotate(-20deg);
 }
 .contact {
-  /* opacity: 0; */
+  opacity: 0;
   border: black 5px solid;
   font-size: 90px;
   margin-top: 30px;
@@ -942,6 +941,7 @@ span.price {
   width: 600px;
   height: 100px;
   cursor: pointer;
-}
+} */
+
 
 
