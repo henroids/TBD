@@ -287,12 +287,11 @@ p {
 } */
 
 .pizza_boxes {
-  margin-top: 50px;
   background: url("../img/pizza_boxes.svg") no-repeat center center/contain;
   height: 500px;
   text-align: center;
   line-height: 120px;
-  padding-top: 30px;
+  padding-top: 10px;
 }
 
 
@@ -336,29 +335,6 @@ p {
   margin-bottom: 50px;
   padding-left: 20px;
   padding-right: 20px;
-}
-
-
-
-
-
-
-/* .cart { */
-  position: fixed;
-  width: 100%;
-}
-
-
-
-
-
-
-
-/* .video_1 { */
-  float: left;
-}
-/* .video_2 { */
-  float: right;
 }
 
 /* menu  */
@@ -901,7 +877,7 @@ span.price {
 }
 
 .arrow {
-  border: solid white;
+  border: solid #7C7597;
   border-width: 0 3px 3px 0;
   display: inline-block;
   padding: 15px;
