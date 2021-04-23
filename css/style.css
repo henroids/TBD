@@ -894,13 +894,15 @@ span.price {
 
 /* pizza box nav ---------------  */
 .pizza_boxes {
+  margin: auto;
   display: flex;
-  max-width: 1000px;
+  max-width: 500px;
   color: #000;
 }
 
 .order {
-  /* position: absolute; */
+  display: flex;
+  position: ;
   border: black 5px solid;
   width: 600px;
   /* opacity: 0; */
