@@ -10,6 +10,9 @@
   text-decoration: none;
 }
 
+h2 {
+  color: #7C7597;
+}
 body {
   background: url('../img/toppings.svg') center center;
   /* backdrop-filter: brightness(25%); */
@@ -236,7 +239,7 @@ html {
 
 
 
-h1,h2,h3 {
+/* h1,h2,h3 { */
   padding-bottom: 20px;
 }
 
