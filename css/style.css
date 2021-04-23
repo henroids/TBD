@@ -1,5 +1,9 @@
 /* reset */
 
+h2 {
+  color: #7C7597;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -10,9 +14,13 @@
   text-decoration: none;
 }
 
+h1
+
 h2 {
   color: #7C7597;
 }
+
+
 body {
   background: url('../img/toppings.svg') center center;
   /* backdrop-filter: brightness(25%); */
@@ -86,6 +94,11 @@ background-color: #000;
 text-decoration: none;
 }
 
+.phone  {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
 .cart ion-icon {
   vertical-align: bottom;
   color: black;
@@ -97,8 +110,11 @@ text-decoration: none;
 h1{
   margin: 50px;
   text-align: center;
-  background: #DEB92A;
-  font-family: 'retrofunk_script_personal_uRg';
+  background: #514875 center center/cover;
+  height: 80px;
+  padding-top: 25px;
+
+  /* font-family: 'retrofunk_script_personal_uRg'; */
   font-size: 3rem;
 }
 
@@ -641,6 +657,11 @@ span.price {
 .form-container {
   border-radius: 5px;
   padding: 20px;
+}
+
+.deals {
+  text-align: center;
+  margin-bottom: 10px;
 }
 
 .contactParent {
