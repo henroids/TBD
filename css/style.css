@@ -277,7 +277,7 @@ li a {
 }
 .btn2 {
   border: none;
-  background: url("../img/button.svg") no-repeat center center;
+  /* background: url("../img/button.svg") no-repeat center center; */
   height: 75px;
   position: relative;
   margin-left: 300px;
@@ -298,14 +298,14 @@ li a {
 }
 
 .btn:hover {
-  background: url("../img/button_hover.svg") no-repeat center center;
+  /* background: url("../img/button_hover.svg") no-repeat center center; */
   /* height: 75px; */
   cursor: pointer;
   color: white;
   padding: 0;
 }
 
-.btn2:hover {
+/* .btn2:hover { */
   background: url("../img/button_hover.svg") no-repeat center center;
   /* height: 75px; */
   cursor: pointer;
@@ -318,7 +318,7 @@ li a {
   width: 230px;
 }
 
-.btn2:active {
+/* .btn2:active { */
   background: url("../img/button_pressed.svg") no-repeat center center;
   /* width: 230px; */
   height: 90px;
@@ -782,7 +782,8 @@ nav {
     position: absolute;
     text-decoration: none;;
     /* margin: -100px; */
-    /* padding-top: 20px; */
+    padding-top: 15px;
+    color: white;
     /* border: black 1px solid; */
     /* margin-left: 80px; */
     height: 70px;
@@ -794,6 +795,7 @@ nav {
     cursor: pointer;
     text-align: center;
 }
+
 
 .cart1:hover {
     /* bottom: 50px; */
@@ -811,9 +813,9 @@ nav {
     overflow: visible;
     /* padding: 10px; */
     text-decoration: none;
-    margin-left: 310px;
+    margin-left: -90px;
 }
 
 .cart1 {
-  margin-left: 300px;
+  margin-left: -107px;
 }
