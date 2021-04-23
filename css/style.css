@@ -14,6 +14,10 @@ h2 {
   text-decoration: none;
 }
 
+.marg {
+  margin-right: 5px;
+}
+
 h2 {
   color: #7C7597;
 }
@@ -73,6 +77,8 @@ nav {
 }
 
 nav li {
+  margin-left: -5px;
+  margin-right: -5px;
   margin-top: 17px;
   width: 80px;
   list-style: none;
@@ -107,6 +113,9 @@ text-decoration: none;
 }
 
 h1{
+  display: flex;
+  /* max-width: 420px; */
+  justify-content: center;
   margin: auto;
   border-radius: 90px;
   padding-left: 10px;

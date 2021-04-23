@@ -6,6 +6,10 @@
     color: white;
 }
 
+.marg {
+    margin-right: 5px;
+  }
+
 h2 {
     margin-right: 20px;
     margin-bottom: 50px;
@@ -64,13 +68,15 @@ nav {
 }
 
 nav li {
+    margin-left: -5px;
+    margin-right: -5px;
     margin-top: 20px;
     width: 80px;
     list-style: none;
     display: inline-block;
     /* padding-right: 10px; */
     /* padding-left: 10px; */
-}
+  }
 
 nav li span {
     padding-left: 5px;
