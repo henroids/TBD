@@ -513,10 +513,10 @@ h1 {
   }
 
   .add-carts {
-    margin-left: 260px;
+    margin-left: 110px;
   }
   
   .add-carts:active {
     background: url('../img/button_pressed.svg') no-repeat center center/contain;
-    margin-left: 270px;
+    margin-left: 120px;
   }
