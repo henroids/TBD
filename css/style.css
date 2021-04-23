@@ -162,6 +162,7 @@ h1{
 }
 
 .logo {
+  cursor: pointer;
   display: flex;
   border: solid black 5px;
   background: #CC6843;
