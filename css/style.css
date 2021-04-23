@@ -4,18 +4,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
   list-style: none;
-}
-
-.mukbang {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-/* main styling */
-html {
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  line-height: 1.7rem;
+  /* color: white; */
 }
 
 body {
@@ -26,32 +17,12 @@ body {
   /* backdrop-filter: brightness(25%); */
 }
 
-@font-face {
-  font-family: 'retrofunk_script_personal_uRg';
-  src: url('../font/retrofunkscriptpersonaluse-v6xo-webfont.woff2') format('woff2'),
-      url('../font/retrofunkscriptpersonaluse-v6xo-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-/* utility classes  */
-.container {
-  margin: auto;
-  max-width: 1500px;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin-top: 50px;
-  padding-bottom: 100px;
-}
-
-  h1{
-    font-family: 'retrofunk_script_personal_uRg';
-    font-size: 3rem;
-  }
-
-h1,h2,h3 {
-  padding-bottom: 20px;
+.body2 {
+  background: url('../img/toppings.svg') center center;
+  /* backdrop-filter: brightness(25%); */
+  /* height: 2000px; */
+  background-size: auto;
+  background-attachment: fixed;
 }
 
 header {
@@ -65,23 +36,171 @@ header {
   position: relative;
 }
 
+nav {
+  /* margin-right: 50px; */
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 53px 60px 0 60px;
+}
+
+nav li {
+  margin-top: 20px;
+  width: 80px;
+  list-style: none;
+  display: inline-block;
+  /* padding-right: 10px; */
+  /* padding-left: 10px; */
+}
+
+nav li span {
+padding-left: 5px;
+color: black;
+}
+
+li a {
+padding: 10px;
+border-radius: 90px;
+background-color: #000;
+text-decoration: none;
+}
+
+.cart ion-icon {
+  vertical-align: bottom;
+  color: black;
+  font-size: 20px;
+  padding-right: 5px;
+}
+
+h1{
+  margin: 50px;
+  text-align: center;
+  background: #DEB92A;
+  font-family: 'retrofunk_script_personal_uRg';
+  font-size: 3rem;
+}
+
+.cart a {
+  position: sticky;
+  background-color: #CC6843;
+  border: black 5px solid;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.container {
+  margin: auto;
+  max-width: 1500px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  padding-bottom: 100px;
+}
+
+.image {
+  margin-right: 20px;
+  margin-left: 20px;
+  position: relative;
+  /* overflow: hidden; */
+}
+
+.add-cart {
+  position: absolute;
+  text-decoration: none;;
+  /* margin: -100px; */
+  padding-top: 15px;
+  color: white;
+  /* border: black 1px solid; */
+  /* margin-left: 80px; */
+  height: 70px;
+  width: 220px;
+  background: url('../images/button.svg') no-repeat center center/contain;
+  /* background-color: darkgrey; */
+  transition: all 0.11s ease-in-out;
+  /* opacity: 0; */
+  cursor: pointer;
+  text-align: center;
+}
+
+.cart1:hover {
+  /* bottom: 50px; */
+  background: url('../images/button_hover.svg') no-repeat center center/contain;
+  opacity: 1;
+  /* padding: 10px; */
+  text-decoration: none;
+}
+
+.cart1:active {
+  /* bottom: 50px; */
+  background: url('../images/button_pressed.svg') no-repeat center center/contain;
+  /* margin-left: 10px; */
+  opacity: 1;
+  overflow: visible;
+  /* padding: 10px; */
+  text-decoration: none;
+  margin-left: -90px;
+}
+
+.cart1 {
+margin-left: -107px;
+}
+
+.mukbang {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* main styling */
+
+html {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  line-height: 1.7rem;
+}
+
+
+@font-face {
+  font-family: 'retrofunk_script_personal_uRg';
+  src: url('../font/retrofunkscriptpersonaluse-v6xo-webfont.woff2') format('woff2'),
+      url('../font/retrofunkscriptpersonaluse-v6xo-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* utility classes  */
+
+
+
+
+h1,h2,h3 {
+  padding-bottom: 20px;
+}
+
+
+
 p {
   margin: 10px 0;
 }
 
-/* navbar */
+/* /* navbar */
 #navbar {
   background: #7C7597;
   color: white;
   overflow: auto;
 }
 
-#navbar a {
+/* #navbar a { */
   color: white;
   text-decoration: none;
-}
+} */
 
-.home {
+/* .home { */
   text-align: center;
   color: #7C7597;
   height: 15rem;
@@ -119,17 +238,17 @@ p {
 }
 
 
-#navbar .topnav {
+/* #navbar .topnav { */
   background: #514875;
   color: white;
   overflow: auto;
 }
 
-#navbar .topnav a {
+/* #navbar .topnav a { */
   color: white;
 }
 
-#navbar .topnav ul {
+/* #navbar .topnav ul {
   float: right;
 }
 
@@ -146,7 +265,7 @@ p {
 #navbar .topnav ul li a:hover {
   background: #333;
   color: blanchedalmond;
-}
+} */
 
 .deals {
   /* border: 10px solid yellow; */
@@ -162,57 +281,30 @@ p {
 }
 
 .logo {
-  height: 80px;
-  margin-top: -5px;
-  margin-bottom: 10px;
+  display: flex;
+  border: solid black 5px;
+  background: #CC6843;
+  border-radius: 90px;
+  padding: 8px;
+  height: 100px;
+  margin-top: -20px;
+  margin-right: 10px;
+  /* margin-bottom: 10px; */
 }
 
 
-nav li {
-  margin-top: 20px;
-  list-style: none;
-  display: inline-block;
-  padding-right: 10px;
-  padding-left: 10px;
-}
 
-nav li span {
-  padding-left: 5px;
-}
-
-li a {
-  padding: 10px;
-  border-radius: 20px;
-  background-color: #000;
-  color: white;
-  text-decoration: none;
-}
 
 /* .cart { */
   position: fixed;
   width: 100%;
 }
 
-.cart ion-icon {
- vertical-align: bottom;
- font-size: 20px;
- padding-right: 5px;
-}
 
-.image {
-  margin-right: 20px;
-  margin-left: 20px;
-  position: relative;
-  /* overflow: hidden; */
-}
 
-.cart a {
-  position: sticky;
-  background-color: royalblue;
-  color: #fff;
-  cursor: pointer;
-  text-decoration: none;
-}
+
+
+
 
 /* .video_1 { */
   float: left;
@@ -597,17 +689,7 @@ span.price {
   background-color: rgba(10, 10, 10, 0.3);
 }
 
-nav {
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 2;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 50px 60px 0 60px;
-}
+
 
 /* nav li { */
   list-style: none;
@@ -778,44 +860,6 @@ nav {
   text-align: center;
 }
 
-.add-cart {
-    position: absolute;
-    text-decoration: none;;
-    /* margin: -100px; */
-    padding-top: 15px;
-    color: white;
-    /* border: black 1px solid; */
-    /* margin-left: 80px; */
-    height: 70px;
-    width: 220px;
-    background: url('../images/button.svg') no-repeat center center/contain;
-    /* background-color: darkgrey; */
-    transition: all 0.11s ease-in-out;
-    /* opacity: 0; */
-    cursor: pointer;
-    text-align: center;
-}
 
 
-.cart1:hover {
-    /* bottom: 50px; */
-    background: url('../images/button_hover.svg') no-repeat center center/contain;
-    opacity: 1;
-    /* padding: 10px; */
-    text-decoration: none;
-}
 
-.cart1:active {
-    /* bottom: 50px; */
-    background: url('../images/button_pressed.svg') no-repeat center center/contain;
-    /* margin-left: 10px; */
-    opacity: 1;
-    overflow: visible;
-    /* padding: 10px; */
-    text-decoration: none;
-    margin-left: -90px;
-}
-
-.cart1 {
-  margin-left: -107px;
-}
