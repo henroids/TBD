@@ -626,6 +626,11 @@ p {
   margin-right: auto;
 }
 
+input {
+  border-radius: 90px;
+  border: none;
+}
+
 button {
   font-size: 25px;
   padding-bottom: 20px;
