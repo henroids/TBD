@@ -194,7 +194,7 @@ h1 {
 
 .container-products ion-icon {
     font-size: 40px;
-    border: #A59DC6 5px solid;
+    /* border: #A59DC6 5px solid; */
     border-radius: 90px;
     color: #CC6843;
     margin-left: 10px;
