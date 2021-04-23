@@ -141,6 +141,24 @@ h1{
   cursor: pointer;
   text-align: center;
 }
+.add-carts {
+  display: inline-block;
+  position: absolute;
+  text-decoration: none;;
+  /* margin: -100px; */
+  padding-top: 15px;
+  color: white;
+  /* border: black 1px solid; */
+  /* margin-left: -80px; */
+  height: 70px;
+  width: 220px;
+  background: url('../images/button.svg') no-repeat center center/contain;
+  /* background-color: darkgrey; */
+  transition: all 0.11s ease-in-out;
+  /* opacity: 0; */
+  cursor: pointer;
+  text-align: center;
+}
 
 .cart1:hover {
   /* bottom: 50px; */
@@ -181,6 +199,14 @@ h1{
 
 .cart1 {
 margin-left: -107px;
+}
+
+.add-carts {
+  margin-left: 150px;
+}
+
+.add-carts:active {
+  margin-left: 160px;
 }
 
 .mukbang {
@@ -635,20 +661,15 @@ span.price {
 .form-container {
   border-radius: 5px;
   padding: 20px;
-  flex: 1;
-  margin-left: 200px;
 }
 
 .contactParent {
   max-width: 800px;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
-  margin-top: 100px;
-  margin-left: 450px;
-  margin-right: auto;
-  margin-bottom: 100px;
+  margin: auto;
 }
 
 #contact-form .form-group {
@@ -669,11 +690,9 @@ span.price {
 }
 
 #contact-form textarea {
-  border-radius: 10px;
-  max-height: 200px;
-  min-height: 200px;
-  max-width: 500px;
-  min-width: 500px;
+  border-radius: 10px;  
+  height: 150px;  
+  width: 100%;
 }
 
 #contact-form input:focus, #contact-form textarea:focus {
@@ -687,13 +706,13 @@ span.price {
 .contact-card {
   display: flex;
   flex-direction: column;
-  background: #EAE4CA;
+  background: #7C7597;
   padding: 5px 20px 15px 20px;
-  border: 1px solid lightgrey;
-  border-radius: 10px;
+  /* border: 1px solid lightgrey; */
+  border-radius: 40px;
   margin-top: auto;
-  margin-left: 150px;
-  margin-right: auto;
+  margin: auto;
+  margin-bottom: 100px;
 }
 
 /* cart  */

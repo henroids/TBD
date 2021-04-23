@@ -351,3 +351,144 @@ h1 {
   }
   
   .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+  /* -------------------------------------checkout  */
+
+  .delivery-column {
+    display: -ms-flexbox;
+    /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap;
+    /* IE10 */
+    flex-wrap: wrap;
+    margin: 0 -16px;
+  }
+  
+  .col-25 {
+    -ms-flex: 25%;
+    /* IE10 */
+    flex: 25%;
+  }
+  
+  .col-50 {
+    -ms-flex: 25%;
+    /* IE10 */
+    flex: 25%;
+    padding: 15px;
+  }
+  
+  .payment-container {
+    max-width: 800px;
+      background-color: #A59DC6;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+  }
+  
+  
+  
+  input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 90px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+  }
+  
+  hr {
+    border: 1px solid lightgrey;
+  }
+  
+  span.price {
+    float: right;
+    color: grey;
+  }
+  
+  .orderpic {
+    width: 90px;
+    height: 90px;
+  }
+  
+  /* contact container*/
+  
+  .form-container {
+    border-radius: 5px;
+    padding: 20px;
+    flex: 1;
+    margin-left: 200px;
+  }
+  
+  .contactParent {
+    max-width: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 450px;
+    margin-right: auto;
+    margin-bottom: 100px;
+  }
+  
+  #contact-form .form-group {
+    margin-bottom: 20px;
+  }
+  
+  #contact-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  #contact-form input, #contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px #ddd solid;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  #contact-form textarea {
+    border-radius: 10px;
+    max-height: 200px;
+    min-height: 200px;
+    max-width: 500px;
+    min-width: 500px;
+  }
+  
+  #contact-form input:focus, #contact-form textarea:focus {
+    outline: none;
+    border-color: #f7c08a;
+  }
+  .contact-cardPic {
+    display: flex;
+  }
+  
+  .contact-card {
+    display: flex;
+    flex-direction: column;
+    background: #EAE4CA;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    margin-top: auto;
+    margin-left: 150px;
+    margin-right: auto;
+  }
