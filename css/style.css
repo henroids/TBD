@@ -699,7 +699,7 @@ span.price {
 
 #contact-form input:focus, #contact-form textarea:focus {
   outline: none;
-  border-color: #f7c08a;
+  /* border-color: #f7c08a; */
 }
 .contact-cardPic {
   display: flex;
