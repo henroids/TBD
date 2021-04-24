@@ -6,6 +6,16 @@
     color: white;
 }
 
+.check {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-direction: row;
+  font-size: 22px;
+}
+
+
+
 .marg {
     margin-right: 5px;
   }
@@ -525,4 +535,10 @@ h1 {
   .add-carts:active {
     background: url('../img/button_pressed.svg') no-repeat center center/contain;
     margin-left: 120px;
+  }
+
+  .mukbang {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
