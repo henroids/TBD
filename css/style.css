@@ -956,7 +956,7 @@ span.price {
   -webkit-transform: rotate(135deg);
 }
 
-.order {  
+/* .order {  
   min-width: 500px;
   border: black 5px solid;
   width: 600px;
@@ -977,7 +977,7 @@ span.price {
   margin-left: 250px;
   transform: rotate(15deg);
   /* margin-top: 20px; */
-}
+} */
 
 /* .come {
   opacity: 0;
