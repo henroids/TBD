@@ -68,9 +68,9 @@ footer {
   margin-top: 100px;
   }
 
-p {
+/* p {
   margin-bottom: 100px;
-}
+} */
 
 img {
   display: none;
@@ -90,6 +90,7 @@ div {
 
 
 
+/* .body { */
 .body {
     align-items: center;
     display: inline-block;
@@ -105,7 +106,7 @@ canvas {
 }
 
 /* video */
-#caip {
+/* #caip { */
   display: block;
   margin: auto;
   padding-top: 50px;
@@ -113,7 +114,7 @@ canvas {
   padding-bottom: 20px;
 }
 
-.video_container {
+/* .video_container { */
   display: block;
   width: 730px;
   overflow: hidden;
@@ -122,7 +123,7 @@ canvas {
   margin-bottom: 50px;
 }
 
-#caip_blog {
+/* #caip_blog { */
   margin-left: -200px;
   margin-top: -20px;
 }
@@ -132,7 +133,7 @@ canvas {
   overflow-x: hidden;
 }
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar { */
   width: 0;  /* Remove scrollbar space */
   background: transparent;  /* Optional: just make scrollbar invisible */
 }
