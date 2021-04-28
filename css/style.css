@@ -157,6 +157,9 @@ h1{
   /* overflow: hidden; */
 }
 
+
+
+
 .add-cart {
   position: absolute;
   text-decoration: none;;
@@ -329,6 +332,7 @@ p {
 } */
 
 .pizza_boxes {
+  position: relative;
   background: url("../img/pizza_boxes.svg") no-repeat center center/contain;
   height: 500px;
   text-align: center;
@@ -932,6 +936,7 @@ span.price {
 
 /* pizza box nav ---------------  */
 .pizza_boxes {
+  position: relative;
   margin: auto;
   display: flex;
   /* max-width: 500px; */
