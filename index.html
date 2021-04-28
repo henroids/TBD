@@ -7,10 +7,8 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-JKLXL2581K');
 </script>
-
 <!-- Hotjar Tracking Code for https://henroids.github.io/tbd/ -->
 <script>
   (function(h,o,t,j,a,r){
@@ -22,14 +20,12 @@
       a.appendChild(r);
   })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
 </script>
-
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="./css/pong.css"> -->
+    <link rel="stylesheet" href="./css/pong.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>Pizza Mania | Home</title>
 </head>
@@ -53,7 +49,6 @@
         </ul>
     </nav>
   </header>
-
     <div class="container">
       <p><i class="arrow left"></i></p>
       <h2>Quick Picks</h2>
@@ -112,16 +107,21 @@
         <div class="container">
           <div class="showcase_content">
             <div class="pizza_boxes">
-              
-              <div class="pizza_container">
-                
-                <a class="order" href="order.html">order</a>
-                <a class="deal" href="deals.html">deals</a>
-                <a class="contact" href="contact.html">contact</a>
-                <a class="come" href="#">come over</a>
-              </div>
+              <ul>
+              <a href="order.html">
+                <li class="order">Order Now</li>
+              </a>
+              <a href="deals.html">
+                <li class="deal">Deals</li>
+              </a>
+              <a href="contact.html">
+                <!-- <li class="come">Come Over</li> -->
+              </a>
+              <a href="#">
+                <!-- <li class="contact">Contact</li> -->
+              </a>
+              </ul>
             </div>
-             
             <div class="deals"><h1>Lets go out with a mukBANG!!!</h1>
               <h3>Make a mukbang, or video review and recieve 1 FREE pizza with your next purchase of any regular priced pizza.<h3>
             </div>
@@ -140,21 +140,15 @@
         </div>
       </div>
     </div>
-
     <!-- pong  -->
 
     <div>
       <body class="body">
-<<<<<<< HEAD
         <canvas id="pong" width="400" height="400">
-=======
-        <canvas id="pong" width="1024" height="400">
->>>>>>> parent of efc6a33 (pong)
+        <canvas id="pong" width="400" height="300">
         <script src="./js/pong.js"></script>
       </body>
     </div>
-
-
       <section id="footercategoryGrid">
         <div id="Contact_Us" class="footercategoryGridArea">
           <div class="heading"><h2>Contact Us</h2>

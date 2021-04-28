@@ -157,9 +157,6 @@ h1{
   /* overflow: hidden; */
 }
 
-
-
-
 .add-cart {
   position: absolute;
   text-decoration: none;;
@@ -332,7 +329,6 @@ p {
 } */
 
 .pizza_boxes {
-  position: relative;
   background: url("../img/pizza_boxes.svg") no-repeat center center/contain;
   height: 500px;
   text-align: center;
@@ -354,17 +350,14 @@ p {
 /* #navbar .topnav ul {
   float: right;
 }
-
 #navbar .topnav ul li {
   float: left;
 }
-
 #navbar .topnav ul li a {
   display: block;
   padding: 20px;
   text-align: center;
 }
-
 #navbar .topnav ul li a:hover {
   background: #333;
   color: blanchedalmond;
@@ -936,7 +929,6 @@ span.price {
 
 /* pizza box nav ---------------  */
 .pizza_boxes {
-  position: relative;
   margin: auto;
   display: flex;
   /* max-width: 500px; */
@@ -961,7 +953,7 @@ span.price {
   -webkit-transform: rotate(135deg);
 }
 
-/* .order {  
+.order {  
   min-width: 500px;
   border: black 5px solid;
   width: 600px;
@@ -971,7 +963,6 @@ span.price {
   margin-left: 400px;
   transform: rotate(-1deg);
 }
-
 .deal {  
   opacity: 0;
   width: 350px;
@@ -982,9 +973,9 @@ span.price {
   margin-left: 250px;
   transform: rotate(15deg);
   /* margin-top: 20px; */
-} */
+} 
 
-/* .come {
+/* /.come { */
   opacity: 0;
   width: 355px;
   height: 100px;
@@ -994,7 +985,7 @@ span.price {
   margin-left: 530px;
   transform: rotate(-20deg);
 }
-.contact {
+/* .contact { */
   opacity: 0;
   border: black 5px solid;
   font-size: 90px;
@@ -1004,7 +995,4 @@ span.price {
   width: 600px;
   height: 100px;
   cursor: pointer;
-} */
-
-
-
+}
